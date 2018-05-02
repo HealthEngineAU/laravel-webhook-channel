@@ -1,15 +1,11 @@
-# Webhook notifications channel for Laravel 5.3
+# Webhook notifications channel for Laravel >=5.5
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/webhook.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/webhook)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/laravel-notification-channels/webhook/master.svg?style=flat-square)](https://travis-ci.org/laravel-notification-channels/webhook)
-[![StyleCI](https://styleci.io/repos/65685866/shield)](https://styleci.io/repos/65685866)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/9015691f-130d-4fca-8710-72a010abc684.svg?style=flat-square)](https://insight.sensiolabs.com/projects/9015691f-130d-4fca-8710-72a010abc684)
-[![Quality Score](https://img.shields.io/scrutinizer/g/laravel-notification-channels/webhook.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/webhook)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/laravel-notification-channels/webhook/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/webhook/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/webhook.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/webhook)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/healthengine/laravel-webhook-channel.svg)](https://packagist.org/packages/healthengine/laravel-webhook-channel)
+[![Build Status](https://travis-ci.org/HealthEngineAU/laravel-webhook-channel.svg?branch=master)](https://travis-ci.org/HealthEngineAU/laravel-webhook-channel)
+[![Coverage Status](https://coveralls.io/repos/github/HealthEngineAU/laravel-webhook-channel/badge.svg?branch=master)](https://coveralls.io/github/HealthEngineAU/laravel-webhook-channel?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/healthengine/laravel-webhook-channel.svg)](https://packagist.org/packages/healthengine/laravel-webhook-channel)
 
-This package makes it easy to send webhooks using the Laravel 5.3 notification system.
+This package makes it easy to send webhooks using the Laravel 5.5 notification system.
 
 ## Contents
 
@@ -29,7 +25,7 @@ This package makes it easy to send webhooks using the Laravel 5.3 notification s
 You can install the package via composer:
 
 ``` bash
-composer require laravel-notification-channels/webhook
+composer require healthengine/laravel-webhook-channel
 ```
 
 ## Usage
