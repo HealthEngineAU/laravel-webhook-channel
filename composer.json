@@ -1,26 +1,34 @@
 {
-    "name": "laravel-notification-channels/webhook",
+    "name": "healthengine/laravel-webhook-channel",
     "description": "Webhook Notifications driver",
-    "homepage": "https://github.com/laravel-notification-channels/webhook",
+    "homepage": "https://github.com/healthengineau/laravel-webhook-channel",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Marcel Pociot",
             "email": "m.pociot@gmail.com",
             "homepage": "http://www.marcelpociot.com"
+        },
+        {
+            "name": "Jarryd Tilbrook",
+            "email": "jrad.tilbrook@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.6.4",
+        "php": ">=7.0.0",
         "guzzlehttp/guzzle": "~6.0",
-        "illuminate/notifications": "5.3.*|5.4.*|5.5.*",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+        "illuminate/notifications": ">=5.5",
+        "illuminate/support": ">=5.5"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.5",
         "phpunit/phpunit": "4.*|~6.0",
         "orchestra/testbench": "3.3.x-dev|^3.5.0",
         "orchestra/database": "3.3.x-dev|^3.5.0"
+    },
+    "replace": {
+        "laravel-notification-channels/webhook": "*"
     },
     "autoload": {
         "psr-4": {
@@ -33,7 +41,7 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "@php vendor/bin/phpunit --color=always"
     },
     "config": {
         "sort-packages": true
